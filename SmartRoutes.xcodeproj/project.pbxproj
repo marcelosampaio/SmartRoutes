@@ -14,6 +14,7 @@
 		9CF59A1C1A1B83E7002FCB39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF59A1B1A1B83E7002FCB39 /* Images.xcassets */; };
 		9CF59A1F1A1B83E7002FCB39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF59A1D1A1B83E7002FCB39 /* LaunchScreen.xib */; };
 		9CF59A2B1A1B83E8002FCB39 /* SmartRoutesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF59A2A1A1B83E8002FCB39 /* SmartRoutesTests.m */; };
+		9CF59A3A1A1B84D3002FCB39 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF59A391A1B84D3002FCB39 /* Settings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9CF59A241A1B83E7002FCB39 /* SmartRoutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartRoutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF59A291A1B83E7002FCB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CF59A2A1A1B83E8002FCB39 /* SmartRoutesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartRoutesTests.m; sourceTree = "<group>"; };
+		9CF59A381A1B84D3002FCB39 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		9CF59A391A1B84D3002FCB39 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +84,11 @@
 		9CF59A0D1A1B83E6002FCB39 /* SmartRoutes */ = {
 			isa = PBXGroup;
 			children = (
-				9CF59A121A1B83E6002FCB39 /* AppDelegate.h */,
-				9CF59A131A1B83E7002FCB39 /* AppDelegate.m */,
-				9CF59A151A1B83E7002FCB39 /* ViewController.h */,
-				9CF59A161A1B83E7002FCB39 /* ViewController.m */,
-				9CF59A181A1B83E7002FCB39 /* Main.storyboard */,
-				9CF59A1B1A1B83E7002FCB39 /* Images.xcassets */,
-				9CF59A1D1A1B83E7002FCB39 /* LaunchScreen.xib */,
+				9CF59A3B1A1B84D7002FCB39 /* Classes */,
+				9CF59A371A1B84B5002FCB39 /* Controllers */,
+				9CF59A361A1B84A7002FCB39 /* Root */,
+				9CF59A351A1B8495002FCB39 /* User Interface */,
+				9CF59A341A1B846E002FCB39 /* Images */,
 				9CF59A0E1A1B83E6002FCB39 /* Supporting Files */,
 			);
 			path = SmartRoutes;
@@ -117,6 +118,50 @@
 				9CF59A291A1B83E7002FCB39 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CF59A341A1B846E002FCB39 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9CF59A1B1A1B83E7002FCB39 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9CF59A351A1B8495002FCB39 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				9CF59A181A1B83E7002FCB39 /* Main.storyboard */,
+				9CF59A1D1A1B83E7002FCB39 /* LaunchScreen.xib */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		9CF59A361A1B84A7002FCB39 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9CF59A121A1B83E6002FCB39 /* AppDelegate.h */,
+				9CF59A131A1B83E7002FCB39 /* AppDelegate.m */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		9CF59A371A1B84B5002FCB39 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CF59A151A1B83E7002FCB39 /* ViewController.h */,
+				9CF59A161A1B83E7002FCB39 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9CF59A3B1A1B84D7002FCB39 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9CF59A381A1B84D3002FCB39 /* Settings.h */,
+				9CF59A391A1B84D3002FCB39 /* Settings.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +266,7 @@
 			files = (
 				9CF59A171A1B83E7002FCB39 /* ViewController.m in Sources */,
 				9CF59A141A1B83E7002FCB39 /* AppDelegate.m in Sources */,
+				9CF59A3A1A1B84D3002FCB39 /* Settings.m in Sources */,
 				9CF59A111A1B83E6002FCB39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
