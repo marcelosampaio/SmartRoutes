@@ -54,7 +54,15 @@
             NSLog(@"Successfully retrieved %d rows.", objects.count);
             // Do something with the found objects
             for (PFObject *object in objects) {
-                NSLog(@"%@", object.objectId);
+                NSLog(@"object=%@", object.objectId);
+                Location *location = [[Location alloc]initWithLatitude:[object valueForKey:@"latitude"] longitude:[object valueForKey:@"longitude"] title:[object valueForKey:@"title"] subTitle:[object valueForKey:@"subTitle"] array:[object valueForKey:@"array"]];
+                NSLog(@"Title=%@",location.title);
+                NSLog(@"Sub-Title=%@",location.subTitle);
+                NSLog(@"Latitude=%@",location.latitude);
+                NSLog(@"Longitude=%@",location.longitude);
+                NSLog(@"Array 0=%@",[location.array objectAtIndex:0]);
+                NSLog(@"Array 1=%@",[location.array objectAtIndex:1]);
+                NSLog(@"Array 2=%@",[location.array objectAtIndex:2]);
             }
         } else {
             // Log details of the failure

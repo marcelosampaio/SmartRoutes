@@ -129,16 +129,6 @@
 		9CF59A0D1A1B83E6002FCB39 /* SmartRoutes */ = {
 			isa = PBXGroup;
 			children = (
-				9CF59A4D1A1B86CB002FCB39 /* libz.dylib */,
-				9CF59A4B1A1B86C1002FCB39 /* CoreLocation.framework */,
-				9CF59A491A1B86B8002FCB39 /* CoreGraphics.framework */,
-				9CF59A471A1B86AE002FCB39 /* CFNetwork.framework */,
-				9CF59A451A1B86A6002FCB39 /* AudioToolbox.framework */,
-				9CF59A571A1B86F7002FCB39 /* SystemConfiguration.framework */,
-				9CF59A551A1B86ED002FCB39 /* StoreKit.framework */,
-				9CF59A531A1B86E5002FCB39 /* Security.framework */,
-				9CF59A511A1B86DD002FCB39 /* QuartzCore.framework */,
-				9CF59A4F1A1B86D4002FCB39 /* MobileCoreServices.framework */,
 				9CF59A441A1B866E002FCB39 /* Frameworks */,
 				9CF59A3B1A1B84D7002FCB39 /* Classes */,
 				9CF59A371A1B84B5002FCB39 /* Controllers */,
@@ -225,6 +215,16 @@
 		9CF59A441A1B866E002FCB39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9CF59A4D1A1B86CB002FCB39 /* libz.dylib */,
+				9CF59A4B1A1B86C1002FCB39 /* CoreLocation.framework */,
+				9CF59A491A1B86B8002FCB39 /* CoreGraphics.framework */,
+				9CF59A471A1B86AE002FCB39 /* CFNetwork.framework */,
+				9CF59A451A1B86A6002FCB39 /* AudioToolbox.framework */,
+				9CF59A571A1B86F7002FCB39 /* SystemConfiguration.framework */,
+				9CF59A551A1B86ED002FCB39 /* StoreKit.framework */,
+				9CF59A531A1B86E5002FCB39 /* Security.framework */,
+				9CF59A511A1B86DD002FCB39 /* QuartzCore.framework */,
+				9CF59A4F1A1B86D4002FCB39 /* MobileCoreServices.framework */,
 				9CF59A3C1A1B8664002FCB39 /* Bolts.framework */,
 				9CF59A3D1A1B8664002FCB39 /* Parse.framework */,
 				9CF59A3E1A1B8664002FCB39 /* ParseFacebookUtils.framework */,
@@ -538,6 +538,7 @@
 				9CF59A301A1B83E8002FCB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CF59A311A1B83E8002FCB39 /* Build configuration list for PBXNativeTarget "SmartRoutesTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +547,7 @@
 				9CF59A331A1B83E8002FCB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
